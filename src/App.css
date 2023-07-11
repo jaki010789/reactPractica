@@ -1,19 +1,28 @@
-.bg-body-tertiary{
-  color:blue
-}
+
 #basic-navbar-nav{
   background-color: aqua;
  font-family: Georgia, 'Times New Roman', Times, serif;
  font-weight: bold;
+ 
   
 }
 #basic-nav-dropdown{
-  color: blue;
+  color: rgb(225, 0, 255);
 }
 .container{
-  background-color: rgb(255, 0, 230);
+  background-color: rgb(44, 206, 221);
+  border:solid;
+  border-radius: 5%;
+  border-color: rgb(33, 129, 129);
 }
 
 .App-header{
 background-color: black;
+}
+nav{
+background-color:aquamarine
+}
+
+.a{
+  color:blueviolet
 }
