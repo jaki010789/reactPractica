@@ -1,4 +1,4 @@
-import React, { useState }  from "react";
+import { useState }  from "react";
 
 const CerrarSesion= () => {
     const [inicio, escogerInicioSesion]= useState(false);
@@ -12,7 +12,7 @@ escogerInicioSesion(true);
     };
 
     return(
-        <div>
+        <div class="btn">
             {inicio ? (
                 <button className="btn" onClick={DarFinalizar}> Cerrar sesión</button>):(
               <button className="btn" onClick={DarInicio}>Iniciar sesión</button>
@@ -23,3 +23,4 @@ escogerInicioSesion(true);
 };
 
 export default CerrarSesion;
+

@@ -1,28 +1,29 @@
-
-#basic-navbar-nav{
+#basic-navbar-nav {
   background-color: aqua;
- font-family: Georgia, 'Times New Roman', Times, serif;
- font-weight: bold;
- 
-  
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-weight: bold;
 }
-#basic-nav-dropdown{
+#basic-nav-dropdown {
   color: rgb(225, 0, 255);
 }
-.container{
+.container {
   background-color: rgb(44, 206, 221);
-  border:solid;
-  border-radius: 5%;
+  border: solid;
+  border-radius: 2%;
   border-color: rgb(33, 129, 129);
 }
 
-.App-header{
-background-color: black;
+.App-header {
+  background-color: rgb(161, 208, 239);
 }
-nav{
-background-color:aquamarine
+nav {
+  background-color: aquamarine;
 }
 
-.a{
-  color:blueviolet
+.a {
+  color: blueviolet;
+}
+
+.formulario{
+  color:blue
 }
